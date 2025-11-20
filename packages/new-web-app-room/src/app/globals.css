@@ -3,6 +3,37 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --calculator-bg: #f3f4f6;
+  --calculator-border: #d1d5db;
+  --display-bg: #ffffff;
+  --display-text: #000000;
+  --button-gray: #e5e7eb;
+  --button-gray-hover: #d1d5db;
+  --button-gray-text: #374151;
+  --button-dark: #6b7280;
+  --button-dark-hover: #4b5563;
+  --button-dark-text: #ffffff;
+  --button-orange: #f97316;
+  --button-orange-hover: #ea580c;
+  --button-orange-text: #ffffff;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --calculator-bg: #374151;
+  --calculator-border: #4b5563;
+  --display-bg: #000000;
+  --display-text: #ffffff;
+  --button-gray: #6b7280;
+  --button-gray-hover: #9ca3af;
+  --button-gray-text: #000000;
+  --button-dark: #4b5563;
+  --button-dark-hover: #6b7280;
+  --button-dark-text: #ffffff;
+  --button-orange: #f97316;
+  --button-orange-hover: #ea580c;
+  --button-orange-text: #ffffff;
 }
 
 @theme inline {
@@ -10,13 +41,6 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 /* Non-scroll and full-height baseline */
@@ -147,3 +171,4 @@ body {
 .animate-bounce-horizontal {
   animation: bounce-horizontal 1.5s ease-in-out infinite;
 }
+
